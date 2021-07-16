@@ -1,0 +1,170 @@
+/* css reset first */
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('images/gym.jpg');
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    top: 14px;
+}
+
+.mid{
+    /* border: 2px solid rgb(30, 137, 170); */
+    width: 33%;
+    display: block;
+    margin: 15px auto;
+    
+}
+.right{
+    /* border: 2px solid rgb(0, 255, 0); */
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 14px;
+
+}
+/* gym icon */
+.left i{
+    font-size: 50px;
+    padding: 5px;
+}
+.left i:hover{
+    color:#9995a5;
+    font-size: 55px;
+}
+/* search icon */
+.right i{
+    font-size: 30px;
+}
+.right #search:hover{
+    color:#9995a5;
+    font-size: 33px;
+}
+.right #headset:hover{
+    color:#9995a5;
+    font-size: 33px;
+}
+
+
+
+nav ul{
+    overflow: hidden;
+
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+    padding: 2px 8px;
+
+}
+nav li a{
+    
+    text-decoration: none;
+    font-size: large;
+    color: white;
+}
+
+nav li a:hover, nav li a.active{
+    text-decoration: underline;
+    color:#9995a5;
+}
+
+#container{
+    /* border: 2px solid white; */
+    margin: 89px ;
+    padding:19px 28px ;
+    width: 34%;
+    border-radius: 15px;
+}
+#container:hover{
+    opacity: 0.8;
+    
+}
+
+#container2{
+    /* border: 2px solid white; */
+    margin: -60px 80px ;
+    padding:0px 28px ;
+    width: 34%;
+    border-radius: 15px;
+}
+#container2 .btn{
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    margin: 15px auto ;
+    padding: 7px 20px;
+    display: block;
+    width: 33%;
+}
+#conatiner .btn:hover{
+    background-color: #4f4f4d;
+    color: black;
+}
+
+.form-group input{
+    text-align: center;
+    padding: 4px 5px;
+    border-radius: 2px;
+    margin: 13px auto;
+    display: block;
+    width: 45%;
+    border: 2px solid #4f514e;
+    border-radius: 8px;
+    font-weight: bolder;
+}
+#container2 h2{
+    text-align: center;
+    
+}
+
+#socialmedia{
+    /* border: 2px solid white; */
+    margin: -222px auto;
+    width: 2%;
+    display: block;
+    padding: 0px 15px;
+    font-size: 25px;
+    float: right;
+    
+}
+#socialmedia #fb:hover
+{
+    color:#9995a5;
+    font-size: 30px;
+   
+}
+#socialmedia #wa:hover
+{
+    color:#9995a5;
+    font-size: 30px;
+   
+}
+#socialmedia #map:hover
+{
+    color:#9995a5;
+    font-size: 30px;
+   
+}
+#socialmedia #twitter:hover
+{
+    color:#9995a5;
+    font-size: 30px;
+   
+}
+#socialmedia #insta:hover
+{
+    color:#9995a5;
+    font-size: 30px;
+   
+}
+#socialmedia a{
+    color: white;
+}

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jerry Gym</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="basicwebsite.css"> -->
+    <style>
+        /* css reset first */
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('/images/gym.jpg');
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    background-repeat: no-repeat;
+    
+}
+
+.left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    top: 14px;
+}
+
+.mid{
+    /* border: 2px solid rgb(30, 137, 170); */
+    width: 33%;
+    display: block;
+    margin: 15px auto;
+    
+}
+.right{
+    /* border: 2px solid rgb(0, 255, 0); */
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 14px;
+
+}
+/* gym icon */
+.left i{
+    font-size: 50px;
+    padding: 5px;
+}
+.left i:hover{
+    color:#9995a5;
+    font-size: 55px;
+}
+/* search icon */
+.right i{
+    font-size: 30px;
+}
+.right #search:hover{
+    color:#9995a5;
+    font-size: 33px;
+}
+.right #headset:hover{
+    color:#9995a5;
+    font-size: 33px;
+}
+
+
+
+nav ul{
+    overflow: hidden;
+
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+    padding: 2px 8px;
+
+}
+nav li a{
+    
+    text-decoration: none;
+    font-size: large;
+    color: white;
+}
+
+nav li a:hover, nav li a.active{
+    text-decoration: underline;
+    color:#9995a5;
+}
+
+#container{
+    /* border: 2px solid white; */
+    margin: 89px ;
+    padding:19px 28px ;
+    width: 34%;
+    border-radius: 15px;
+}
+#container:hover{
+    opacity: 0.8;
+    
+}
+
+#container2{
+    /* border: 2px solid white; */
+    margin: -60px 80px ;
+    padding:0px 28px ;
+    width: 34%;
+    border-radius: 15px;
+}
+#container2 .btn{
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    margin: 15px auto ;
+    padding: 7px 20px;
+    display: block;
+    width: 33%;
+}
+#conatiner .btn:hover{
+    background-color: #4f4f4d;
+    color: black;
+}
+
+.form-group input{
+    text-align: center;
+    padding: 4px 5px;
+    border-radius: 2px;
+    margin: 13px auto;
+    display: block;
+    width: 45%;
+    border: 2px solid #4f514e;
+    border-radius: 8px;
+    font-weight: bolder;
+}
+#container2 h2{
+    text-align: center;
+    
+}
+
+#socialmedia{
+    /* border: 2px solid white; */
+    margin: -222px auto;
+    width: 2%;
+    display: block;
+    padding: 0px 15px;
+    font-size: 25px;
+    float: right;
+    
+}
+#socialmedia #fb:hover
+{
+    color:#9995a5;
+    font-size: 30px;
+   
+}
+#socialmedia #wa:hover
+{
+    color:#9995a5;
+    font-size: 30px;
+   
+}
+#socialmedia #map:hover
+{
+    color:#9995a5;
+    font-size: 30px;
+   
+}
+#socialmedia #twitter:hover
+{
+    color:#9995a5;
+    font-size: 30px;
+   
+}
+#socialmedia #insta:hover
+{
+    color:#9995a5;
+    font-size: 30px;
+   
+}
+#socialmedia a{
+    color: white;
+}
+    </style>
+</head>
+
+<body>
+    <header id="header">
+
+        <div class="left">
+            <!-- my-logo -->
+            <i class="fas fa-dumbbell"></i> <br>
+            Jerry Gym
+
+        </div>
+        <div class="mid">
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Fitness Test</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+
+        </div>
+        <div class="right">
+            <!-- contact info -->
+
+            <i id="search" class="fas fa-search"></i>
+            <i id="headset" class="fas fa-headset"></i>
+
+        </div>
+    </header>
+
+    <div id="container">
+        <h1>No Alarm Clock Needed.
+            My Passion Wakes Me Up.
+        </h1>
+    </div>
+
+    <div id="container2">
+        <h2>Join The Jerry Gym</h2>
+        <form action="file.php" method="post">
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter Your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter Your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter Your Dummy">
+            </div>
+            <button class="btn" type=""> Submit</button>
+        </form>
+    </div>
+
+    <div id="socialmedia">
+        <a href="https://www.facebook.com/Jerryplox/" target="_blank"><i id="fb" class="fab fa-facebook"></i></a>&nbsp;
+        <a href="https://www.instagram.com/aadvik__13/" target="_blank"></a><i id="insta"
+            class="fab fa-instagram"></i></a>&nbsp;
+        <a href="https://twitter.com/Jerry__131" target="_blank"></a><i id="twitter"
+            class="fab fa-twitter"></i></a>&nbsp;
+        <a href="https://web.whatsapp.com/" target="_blank"></a><i id="wa" class="fab fa-whatsapp"></i></a>&nbsp;
+        <a href="https://www.google.com/maps/place/Andhra+Bank/@17.5532012,78.3609493,17.6z/data=!4m8!1m2!10m1!1e2!3m4!1s0x3bcb8dc9e300e479:0x1e39cffceee0ef8f!8m2!3d17.55376!4d78.3616597"
+            target="_blank"> <i id="map" class="fas fa-map-marker-alt"></i></a>
+    </div>
+
+</body>
+
+</html>
